@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1>Hello world we are software developers!</h1>
+    <h1 id="title"> Survey Form </h1>
+    <p id="description"> This is a survey form for microverse trials</p>
+
+    <form id ="survey-form">
+      <div>
+        <label id="name-label" for="name" > Name <input  id="name" type="text" name="name" placeholder="Type your name here" required > </label> 
+      </div>
+      <br>
+      <div>
+        <label id="email-label" for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Type your email here" required>
+      </div>
+      <br>
+      <div>
+        <label id="number-label" for="number" >Number <input  id="number" type="number" min="0" max="100" placeholder="Type your number here" required >
+        </label>
+      </div>
+      <br>
+      <div>
+        <label for="dropdown">Select an option from the dropdown menu:</label>
+        <br>
+        <select id="dropdown">
+          <option value="option one">One</option>
+          <option value="option two">Two</option>
+          <option value="option three">Three</option>
+        </select>
+      </div>
+      <div>
+        <p> Choose a value below: </p>
+        <ul>
+          <li><label> <input id="radio-name" type="radio" name="group-name" value="name">Name</label><br></li>
+          <li><label><input id="radio-number" type="radio" name="group-name" value="number">Number</label><br></li>
+          <li><label><input id="radio-email" type="radio" name="group-name" value="email">Email</label></li>
+        </ul>
+      </div>
+      <div>
+        <p>Choose other values:</p>
+        <label ><input id="checkbox-name" type="checkbox" value="name">Name</label><br>
+        <label ><input id="checkbox-number" type="checkbox" value="number">Number</label><br>
+        <label ><input id="checkbox-email" type="checkbox" value="Email">Email <br></label>
+        <br>
+      </div>
+      <div>
+        <label >Add additional comments here:<br> <textarea id="comments" name="comments" rows="5" cols="50"></textarea></label></div>
+        <br>
+      <div>
+        <input id="submit" type="submit" value="Submit">
+      </div>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
