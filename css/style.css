@@ -1,0 +1,45 @@
+body{
+  background-color: orangered;
+  align-items: center;
+ }
+ 
+ h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:30px;
+  color:green;
+ }
+ 
+ #description {
+  text-align: center;
+  font-size:20px;
+ }
+ 
+ #survey-form {
+  text-align: center;
+         
+ }
+ 
+ #name, #email, #number {
+     width: 250px;
+ }
+ 
+ p, label {
+     font-size: 20px;
+ }
+ 
+ #dropdown {
+     width: 70px;
+ }
+ 
+ #radio-name, #radio-email {
+     margin-right: 18px;
+ }
+ 
+ #checkbox-name, #checkbox-email {
+     margin-right: 18px;
+ }
+ 
+ #submit {
+     width: 100px;
+ }
